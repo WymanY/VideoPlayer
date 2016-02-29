@@ -22,8 +22,8 @@
         
         //添加返回 Button
         UIButton *navBackIndicatorBtn = [UIButton new];
-        [navBackIndicatorBtn setImage:[UIImage imageNamed:@"icon_back02"] forState:UIControlStateNormal];
-        [navBackIndicatorBtn setImage:[UIImage imageNamed:@"icon_back"] forState:UIControlStateHighlighted];
+        [navBackIndicatorBtn setImage:[UIImage imageNamed:@"back"] forState:UIControlStateNormal];
+        [navBackIndicatorBtn setImage:[UIImage imageNamed:@"player_back"] forState:UIControlStateHighlighted];
         [self addSubview:navBackIndicatorBtn];
         self.navBackIndicatorBtn = navBackIndicatorBtn;
         

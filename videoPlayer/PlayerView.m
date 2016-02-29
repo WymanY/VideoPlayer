@@ -11,12 +11,13 @@
 #import <Masonry.h>
 #import "VideoControlBottomView.h"
 #import "VideoPlayerLayerView.h"
+#import "VideoControlTopView.h"
 
 @interface PlayerView ()
 @property (nonatomic,strong) UIView *viedoPlayerHoldView;
 
 @property (nonatomic,strong) UIView *controlHolderView;
-@property (nonatomic,strong) UIView *topControlHolderView;
+@property (nonatomic,strong) VideoControlTopView *topControlHolderView;
 @property (nonatomic,strong) VideoControlBottomView *bottomControlHolderView;
 @property (nonatomic,strong) VideoPlayerLayerView *playerLayerView;
 
@@ -88,7 +89,7 @@
             make.height.mas_equalTo(44);
         }];
         //添加底部控制条
-        UIView *topControlHolderView = [[UIView alloc] init];
+        VideoControlTopView *topControlHolderView = [[VideoControlTopView alloc] init];
         topControlHolderView.backgroundColor = [UIColor colorWithWhite:0 alpha:0.75];
         [controlHolderView addSubview:topControlHolderView];
         
