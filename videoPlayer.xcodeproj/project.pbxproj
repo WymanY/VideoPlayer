@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		364B7E9CC9F2EEB2C08A7198 /* libPods-videoPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DA68F17219D01E339BA6D88 /* libPods-videoPlayer.a */; };
+		C51B07C91C841F540090BB61 /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = C51B07C81C841F540090BB61 /* Constant.m */; };
+		C51B07CD1C8421B30090BB61 /* NSBundle+PlayerBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = C51B07CC1C8421B30090BB61 /* NSBundle+PlayerBundle.m */; };
+		C51B07D11C842E880090BB61 /* VideoControlTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = C51B07D01C842E880090BB61 /* VideoControlTopView.m */; };
 		C59BFD991C83DF8F0076F761 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C59BFD981C83DF8F0076F761 /* main.m */; };
 		C59BFD9C1C83DF8F0076F761 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C59BFD9B1C83DF8F0076F761 /* AppDelegate.m */; };
 		C59BFD9F1C83DF8F0076F761 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C59BFD9E1C83DF8F0076F761 /* ViewController.m */; };
 		C59BFDA21C83DF8F0076F761 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59BFDA01C83DF8F0076F761 /* Main.storyboard */; };
 		C59BFDA41C83DF8F0076F761 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59BFDA31C83DF8F0076F761 /* Assets.xcassets */; };
 		C59BFDA71C83DF8F0076F761 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59BFDA51C83DF8F0076F761 /* LaunchScreen.storyboard */; };
+		C59BFDB21C83E1190076F761 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C59BFDB11C83E1190076F761 /* UIView+Extension.m */; };
+		C59BFDB71C83E6610076F761 /* PlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C59BFDB61C83E6610076F761 /* PlayerView.m */; };
+		C5D792A11C83F9F300258F63 /* VideoPlayerLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D792A01C83F9F300258F63 /* VideoPlayerLayerView.m */; };
+		C5D792A51C83FA2A00258F63 /* VideoControlBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D792A41C83FA2A00258F63 /* VideoControlBottomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5DA68F17219D01E339BA6D88 /* libPods-videoPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-videoPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		607029C6D691CEE9EAF119A2 /* Pods-videoPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-videoPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-videoPlayer/Pods-videoPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		C51B07C71C841F540090BB61 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		C51B07C81C841F540090BB61 /* Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
+		C51B07CB1C8421B30090BB61 /* NSBundle+PlayerBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+PlayerBundle.h"; sourceTree = "<group>"; };
+		C51B07CC1C8421B30090BB61 /* NSBundle+PlayerBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+PlayerBundle.m"; sourceTree = "<group>"; };
+		C51B07CF1C842E880090BB61 /* VideoControlTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoControlTopView.h; sourceTree = "<group>"; };
+		C51B07D01C842E880090BB61 /* VideoControlTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoControlTopView.m; sourceTree = "<group>"; };
+		C57A62DC006B6996137194FE /* Pods-videoPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-videoPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-videoPlayer/Pods-videoPlayer.release.xcconfig"; sourceTree = "<group>"; };
 		C59BFD941C83DF8F0076F761 /* videoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = videoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C59BFD981C83DF8F0076F761 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C59BFD9A1C83DF8F0076F761 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +43,15 @@
 		C59BFDA31C83DF8F0076F761 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C59BFDA61C83DF8F0076F761 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C59BFDA81C83DF8F0076F761 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C59BFDB01C83E1190076F761 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		C59BFDB11C83E1190076F761 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		C59BFDB41C83E1410076F761 /* MacroDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroDefinition.h; sourceTree = "<group>"; };
+		C59BFDB51C83E6610076F761 /* PlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerView.h; sourceTree = "<group>"; };
+		C59BFDB61C83E6610076F761 /* PlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerView.m; sourceTree = "<group>"; };
+		C5D7929F1C83F9F300258F63 /* VideoPlayerLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayerLayerView.h; sourceTree = "<group>"; };
+		C5D792A01C83F9F300258F63 /* VideoPlayerLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerLayerView.m; sourceTree = "<group>"; };
+		C5D792A31C83FA2A00258F63 /* VideoControlBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoControlBottomView.h; sourceTree = "<group>"; };
+		C5D792A41C83FA2A00258F63 /* VideoControlBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoControlBottomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +59,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				364B7E9CC9F2EEB2C08A7198 /* libPods-videoPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82532A1E03B1EF534ABDC0D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				607029C6D691CEE9EAF119A2 /* Pods-videoPlayer.debug.xcconfig */,
+				C57A62DC006B6996137194FE /* Pods-videoPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A6779C23F96F7B693102DFC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DA68F17219D01E339BA6D88 /* libPods-videoPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C51B07C51C841F210090BB61 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C51B07C61C841F280090BB61 /* Constant */,
+				C59BFDB31C83E12A0076F761 /* Macro */,
+				C59BFDAF1C83DF970076F761 /* Category */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		C51B07C61C841F280090BB61 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				C51B07C71C841F540090BB61 /* Constant.h */,
+				C51B07C81C841F540090BB61 /* Constant.m */,
+			);
+			name = Constant;
+			sourceTree = "<group>";
+		};
+		C51B07CE1C842E6C0090BB61 /* VideoControlTopView */ = {
+			isa = PBXGroup;
+			children = (
+				C51B07CF1C842E880090BB61 /* VideoControlTopView.h */,
+				C51B07D01C842E880090BB61 /* VideoControlTopView.m */,
+			);
+			name = VideoControlTopView;
+			sourceTree = "<group>";
+		};
 		C59BFD8B1C83DF8F0076F761 = {
 			isa = PBXGroup;
 			children = (
 				C59BFD961C83DF8F0076F761 /* videoPlayer */,
 				C59BFD951C83DF8F0076F761 /* Products */,
+				82532A1E03B1EF534ABDC0D5 /* Pods */,
+				A6779C23F96F7B693102DFC5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +132,8 @@
 		C59BFD961C83DF8F0076F761 /* videoPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				C51B07C51C841F210090BB61 /* Helper */,
+				C59BFDAE1C83DF940076F761 /* View */,
 				C59BFD9A1C83DF8F0076F761 /* AppDelegate.h */,
 				C59BFD9B1C83DF8F0076F761 /* AppDelegate.m */,
 				C59BFD9D1C83DF8F0076F761 /* ViewController.h */,
@@ -79,6 +155,47 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C59BFDAE1C83DF940076F761 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C51B07CE1C842E6C0090BB61 /* VideoControlTopView */,
+				C5D792A21C83FA0B00258F63 /* VideoControlBottomView */,
+				C59BFDB51C83E6610076F761 /* PlayerView.h */,
+				C59BFDB61C83E6610076F761 /* PlayerView.m */,
+				C5D7929F1C83F9F300258F63 /* VideoPlayerLayerView.h */,
+				C5D792A01C83F9F300258F63 /* VideoPlayerLayerView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C59BFDAF1C83DF970076F761 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C59BFDB01C83E1190076F761 /* UIView+Extension.h */,
+				C59BFDB11C83E1190076F761 /* UIView+Extension.m */,
+				C51B07CB1C8421B30090BB61 /* NSBundle+PlayerBundle.h */,
+				C51B07CC1C8421B30090BB61 /* NSBundle+PlayerBundle.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		C59BFDB31C83E12A0076F761 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				C59BFDB41C83E1410076F761 /* MacroDefinition.h */,
+			);
+			name = Macro;
+			sourceTree = "<group>";
+		};
+		C5D792A21C83FA0B00258F63 /* VideoControlBottomView */ = {
+			isa = PBXGroup;
+			children = (
+				C5D792A31C83FA2A00258F63 /* VideoControlBottomView.h */,
+				C5D792A41C83FA2A00258F63 /* VideoControlBottomView.m */,
+			);
+			name = VideoControlBottomView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C59BFDAB1C83DF8F0076F761 /* Build configuration list for PBXNativeTarget "videoPlayer" */;
 			buildPhases = (
+				2A97F892B464B29956C2C601 /* Check Pods Manifest.lock */,
 				C59BFD901C83DF8F0076F761 /* Sources */,
 				C59BFD911C83DF8F0076F761 /* Frameworks */,
 				C59BFD921C83DF8F0076F761 /* Resources */,
+				DB95C3E3FC41817E547D6E3E /* Embed Pods Frameworks */,
+				E2E3622F8E2D83FBC62044CC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,14 +264,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A97F892B464B29956C2C601 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DB95C3E3FC41817E547D6E3E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-videoPlayer/Pods-videoPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2E3622F8E2D83FBC62044CC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-videoPlayer/Pods-videoPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C59BFD901C83DF8F0076F761 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C51B07CD1C8421B30090BB61 /* NSBundle+PlayerBundle.m in Sources */,
 				C59BFD9F1C83DF8F0076F761 /* ViewController.m in Sources */,
+				C5D792A51C83FA2A00258F63 /* VideoControlBottomView.m in Sources */,
+				C5D792A11C83F9F300258F63 /* VideoPlayerLayerView.m in Sources */,
 				C59BFD9C1C83DF8F0076F761 /* AppDelegate.m in Sources */,
+				C59BFDB21C83E1190076F761 /* UIView+Extension.m in Sources */,
 				C59BFD991C83DF8F0076F761 /* main.m in Sources */,
+				C59BFDB71C83E6610076F761 /* PlayerView.m in Sources */,
+				C51B07D11C842E880090BB61 /* VideoControlTopView.m in Sources */,
+				C51B07C91C841F540090BB61 /* Constant.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +436,7 @@
 		};
 		C59BFDAC1C83DF8F0076F761 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 607029C6D691CEE9EAF119A2 /* Pods-videoPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = videoPlayer/Info.plist;
@@ -272,6 +448,7 @@
 		};
 		C59BFDAD1C83DF8F0076F761 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C57A62DC006B6996137194FE /* Pods-videoPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = videoPlayer/Info.plist;
@@ -300,6 +477,7 @@
 				C59BFDAD1C83DF8F0076F761 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
