@@ -15,4 +15,9 @@
  */
 @property (nonatomic,assign) BOOL landScapeState;
 
+/**
+ *  加载标题
+ */
+@property (nonatomic,copy) NSString *title;
+
 @end

@@ -52,7 +52,8 @@
         //添加滚动条和时间的容器
         
         UIView *timeAndSliderContainer = [[UIView alloc] init];
-        timeAndSliderContainer.backgroundColor = [UIColor purpleColor];
+//        timeAndSliderContainer.backgroundColor = [UIColor clearColor];
+        timeAndSliderContainer.opaque = YES;
         [self addSubview:timeAndSliderContainer];
         [timeAndSliderContainer mas_makeConstraints:^(MASConstraintMaker *make) {
             make.left.mas_equalTo(playButton.mas_right).offset(15);
@@ -67,6 +68,7 @@
         [slider setThumbImage:[UIImage imageNamed:@"player_redbutton"] forState:UIControlStateNormal];
         [slider setThumbImage:[UIImage imageNamed:@"player_redbutton_down"] forState:UIControlStateHighlighted];
         slider.minimumTrackTintColor = [UIColor colorWithRed:0.937  green:0.255  blue:0.137 alpha:1];
+        slider.maximumTrackTintColor = [UIColor colorWithRed:0.333  green:0.333  blue:0.333 alpha:1];
         [timeAndSliderContainer addSubview:slider];
         self.progressSlider = slider;
         [slider mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -103,7 +105,6 @@
             make.left.mas_equalTo(currentTimeLabel.mas_right);
             make.width.height.mas_equalTo(currentTimeLabel);
             make.centerY.mas_equalTo(currentTimeLabel);
-            
         }];
         
 

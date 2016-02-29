@@ -1,0 +1,78 @@
+[
+    {
+        "method": "get",
+        "name": "kLSHomePageList",
+        "path": "infoapi/getindexpage.php",
+        "cache": true
+    },
+    {
+        "method": "get",
+        "name": "kLSPreLiveList",
+        "path": "infoapi/getcmsprelive.php",
+        "cache": true
+    },
+    {
+        "method": "get",
+        "name": "kLSLiveEndList",
+        "path": "infoapi/getcmsendlive.php",
+        "cache": true
+    },
+    {
+        "method": "get",
+        "name": "kLSLiveDetailInfo",
+        "path": "infoapi/getlivefullinfo.php",
+        "cache": true
+    },
+    {
+        "method": "get",
+        "name": "kLSLiveListInfo",
+        "path": "infoapi/getmonthlivelist.php",
+        "cache": true
+    },
+    {
+        "method": "get",
+        "name": "kLSCheckSubscribe",
+        "path": "infoapi/checksubscribe.php",
+        "cache": true
+    },
+    {
+        "method": "get",
+        "name": "kLSSubscribe",
+        "path": "QLive/~ajax/subscribe",
+    },
+    {
+        "method": "get",
+        "name": "kLSUnsubscribe",
+        "path": "QLive/~ajax/unsubscribe",
+    },
+    {
+        "method": "get",
+        "name": "kLSSendPhoneMessageAuth",
+        "path": "QLive/~ajax/authphone",
+    },
+    {
+        "method": "get",
+        "name": "kLSDetailPreLiveList",
+        "path": "infoapi/getcmsprelive.php",
+    },
+    {
+         "method": "get",
+         "name": "kLSGetPhoneNumber",
+         "path": "QLive/~ajax/getphone",
+    },
+    {
+         "method": "get",
+         "name": "kLSIsBindingPhone",
+         "path": "QLive/~ajax/getphone",
+    },
+    {
+         "method": "get",
+         "name": "kLSBindingPhone",
+         "path": "QLive/~ajax/editphone",
+    },
+    {
+        "method": "get",
+        "name": "kLSUnLivingList",
+        "path": "infoapi/getcmsunlivinglive.php",
+    }
+]

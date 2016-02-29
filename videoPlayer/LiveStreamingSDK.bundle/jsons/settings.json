@@ -1,0 +1,10 @@
+
+{
+    "server":
+    {
+        "debug":"http://10.10.72.87/",
+        "release":"http://kudouapi.youku.com/"
+    },
+    "httptimeout": 15
+}
+
