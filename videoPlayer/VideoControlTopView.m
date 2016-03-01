@@ -24,14 +24,17 @@
         
         //添加返回 Button
         UIButton *navBackIndicatorBtn = [UIButton new];
-        [navBackIndicatorBtn setImage:[UIImage imageNamed:@"back2"] forState:UIControlStateNormal];
+
+        
+        [navBackIndicatorBtn setImage:[UIImage imageNamed:@"icon_back02"] forState:UIControlStateNormal];
+        navBackIndicatorBtn.tintColor = [UIColor whiteColor];
         [self addSubview:navBackIndicatorBtn];
         self.navBackIndicatorBtn = navBackIndicatorBtn;
         
         [navBackIndicatorBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.left.mas_equalTo(15);
+            make.left.mas_equalTo(0);
             make.centerY.mas_equalTo(0);
-            make.size.mas_equalTo(CGSizeMake(52, 34));
+            make.size.mas_equalTo(CGSizeMake(25, 25));
         }];
         
         //添加右边的 Logo
@@ -51,7 +54,7 @@
         //添加标题按钮
         UILabel *titleLabel = [UILabel new];
         titleLabel.textColor = [UIColor whiteColor];
-        titleLabel.text = @"我是天下第一帅的武藴牛x";
+        titleLabel.text = @"恭喜小李子获得了这次的奥斯卡的大奖小金杯子";
         [self addSubview:titleLabel];
         self.titleLabel = titleLabel;
         [titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {

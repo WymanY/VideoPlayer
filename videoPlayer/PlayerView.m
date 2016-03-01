@@ -66,9 +66,6 @@
             make.edges.mas_equalTo(self);
         }];
         
-        
-        
-
         UIView  *controlHolderView = [[UIView alloc] init];
         self.controlHolderView = controlHolderView;
         controlHolderView.backgroundColor = [UIColor clearColor];
